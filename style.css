@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 360px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+
+.text-green {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Image */
+
+img {
+    background-image: url(assets/images/avatar-jessica.jpeg);
+    border-radius: 100px;
+    width: 37%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Link Buttons */
+
+.click {
+    background-color: hsl(0, 0%, 12%);
+    margin-bottom: 20px;
+}
+
+.click button {
+    font-weight: 700;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 23%);
+}
